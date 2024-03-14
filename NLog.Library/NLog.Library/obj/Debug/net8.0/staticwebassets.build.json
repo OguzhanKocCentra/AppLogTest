@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QASMh7JRa/jqQlpVeiYxBK95zoRusEdaVSWJe5PV5iU=",
+  "Source": "NLog.Library",
+  "BasePath": "_content/NLog.Library",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

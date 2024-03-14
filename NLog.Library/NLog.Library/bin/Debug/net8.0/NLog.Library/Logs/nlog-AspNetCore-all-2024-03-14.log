@@ -1,0 +1,106 @@
+2024-03-14 14:34:40.9818|0|DEBUG|Program|init main 
+2024-03-14 14:34:41.2193|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-03-14 14:34:41.2642|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-03-14 14:34:41.6143|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC420" accepted. 
+2024-03-14 14:34:41.6143|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC420" started. 
+2024-03-14 14:34:41.6346|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC421" received FIN. 
+2024-03-14 14:34:41.6346|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC420" received FIN. 
+2024-03-14 14:34:41.6346|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC421" accepted. 
+2024-03-14 14:34:41.6346|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC421" started. 
+2024-03-14 14:34:41.6346|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC420" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-14 14:34:41.6346|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC421" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-14 14:34:41.6456|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC420" disconnecting. 
+2024-03-14 14:34:41.6456|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC421" disconnecting. 
+2024-03-14 14:34:41.6456|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC421" stopped. 
+2024-03-14 14:34:41.6456|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC420" stopped. 
+2024-03-14 14:34:41.3999|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 
+2024-03-14 14:34:41.6796|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly NLog.Library 
+2024-03-14 14:34:41.6796|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-03-14 14:34:41.6796|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-03-14 14:34:41.6796|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-03-14 14:34:41.6796|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-03-14 14:34:41.6796|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Github\AppLogTest\NLog.Library\NLog.Library 
+2024-03-14 14:34:41.6932|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-03-14 14:34:41.8413|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" accepted. 
+2024-03-14 14:34:41.8413|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" started. 
+2024-03-14 14:34:41.8663|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" accepted. 
+2024-03-14 14:34:41.8663|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" started. 
+2024-03-14 14:34:41.9076|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/index.html - - - 
+2024-03-14 14:34:42.0634|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-03-14 14:34:42.0634|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-14 14:34:42.0723|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2024-03-14 14:34:42.0723|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-03-14 14:34:42.1277|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-03-14 14:34:42.1405|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-03-14 14:34:42.1405|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" completed keep alive response. 
+2024-03-14 14:34:42.1405|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/index.html - 200 - text/html;charset=utf-8 243.4014ms 
+2024-03-14 14:34:42.1486|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/_framework/aspnetcore-browser-refresh.js - - - 
+2024-03-14 14:34:42.1486|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" completed keep alive response. 
+2024-03-14 14:34:42.1486|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/_vs/browserLink - - - 
+2024-03-14 14:34:42.1486|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 6.1429ms 
+2024-03-14 14:34:42.1938|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" completed keep alive response. 
+2024-03-14 14:34:42.1938|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 44.1585ms 
+2024-03-14 14:34:42.2313|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - - - 
+2024-03-14 14:34:42.2313|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-14 14:34:42.2313|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2024-03-14 14:34:42.2313|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2024-03-14 14:34:42.2655|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" completed keep alive response. 
+2024-03-14 14:34:42.2655|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5045/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 34.4296ms 
+2024-03-14 14:34:44.4293|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC422" received FIN. 
+2024-03-14 14:34:44.4293|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC423" received FIN. 
+2024-03-14 14:34:44.4293|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC423" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-14 14:34:44.4293|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC422" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-14 14:34:44.4293|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" disconnecting. 
+2024-03-14 14:34:44.4293|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" disconnecting. 
+2024-03-14 14:34:44.4293|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC423" stopped. 
+2024-03-14 14:34:44.4440|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC422" stopped. 
+2024-03-14 14:34:45.5608|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC424" accepted. 
+2024-03-14 14:34:45.5608|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC424" started. 
+2024-03-14 14:34:45.5608|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5045/api/Home/Post - - 0 
+2024-03-14 14:34:45.5683|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-03-14 14:34:45.5683|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Home/Post' 
+2024-03-14 14:34:45.5683|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'NLog.Library.Controllers.HomeController.Post (NLog.Library)' with route pattern 'api/Home/Post' is valid for the request path '/api/Home/Post' 
+2024-03-14 14:34:45.5683|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'NLog.Library.Controllers.HomeController.Post (NLog.Library)' 
+2024-03-14 14:34:45.5683|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2024-03-14 14:34:45.5683|15|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2024-03-14 14:34:45.5818|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'NLog.Library.Controllers.HomeController.Post (NLog.Library)' 
+2024-03-14 14:34:45.5818|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Post", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post() on controller NLog.Library.Controllers.HomeController (NLog.Library). 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-03-14 14:34:45.6005|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller NLog.Library.Controllers.HomeController (NLog.Library) 
+2024-03-14 14:34:45.6005|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller NLog.Library.Controllers.HomeController (NLog.Library) 
+2024-03-14 14:34:45.6005|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-14 14:34:45.6005|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-14 14:34:45.6005|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-14 14:34:45.6005|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-14 14:34:45.6005|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method NLog.Library.Controllers.HomeController.Post (NLog.Library) - Validation state: Valid 
+2024-03-14 14:34:45.6843|0|ERROR|NLog.Library.Controllers.HomeController|Error occurred in Post action for POST request System.DivideByZeroException: Attempted to divide by zero.
+   at NLog.Library.Controllers.HomeController.Post() in C:\Github\AppLogTest\NLog.Library\NLog.Library\Controllers\HomeController.cs:line 44
+2024-03-14 14:34:45.7237|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method NLog.Library.Controllers.HomeController.Post (NLog.Library), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 109.2647ms. 
+2024-03-14 14:34:45.7237|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-14 14:34:45.7237|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-03-14 14:34:45.7237|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-14 14:34:45.7237|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-03-14 14:34:45.7237|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-14 14:34:45.7237|49|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter|Replacing Microsoft.AspNetCore.Mvc.StatusCodeResult with status code 500 with Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-03-14 14:34:45.7237|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-14 14:34:45.7237|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-03-14 14:34:45.7237|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-03-14 14:34:45.7237|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2024-03-14 14:34:45.7237|9|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'. 
+2024-03-14 14:34:45.7237|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response. 
+2024-03-14 14:34:45.7237|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2024-03-14 14:34:45.7439|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-03-14 14:34:45.7439|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-14 14:34:45.7439|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-03-14 14:34:45.7439|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action NLog.Library.Controllers.HomeController.Post (NLog.Library) in 142.9442ms 
+2024-03-14 14:34:45.7439|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'NLog.Library.Controllers.HomeController.Post (NLog.Library)' 
+2024-03-14 14:34:45.7439|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC424" completed keep alive response. 
+2024-03-14 14:34:45.7439|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5045/api/Home/Post - 500 - application/problem+json;+charset=utf-8 191.9341ms 
+2024-03-14 14:34:54.4532|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC424" received FIN. 
+2024-03-14 14:34:54.4532|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN243AULC424" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-03-14 14:34:54.4532|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC424" disconnecting. 
+2024-03-14 14:34:54.4532|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN243AULC424" stopped. 

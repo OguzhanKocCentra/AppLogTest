@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NLog.Library",
+    "\\NLog.Library\\Controllers",
+    "\\NLog.Library\\Database",
+    "\\NLog.Library\\Logs",
+    "\\NLog.Library\\Migrations",
+    "\\NLog.Library\\Models"
+  ],
+  "SelectedNode": "\\NLog.Library\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

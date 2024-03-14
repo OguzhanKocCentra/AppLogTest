@@ -1,0 +1,16 @@
+2024-03-14 14:32:23.9465|0|DEBUG|Program|init main |url: |action: 
+2024-03-14 14:32:24.4498|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 |url: |action: 
+2024-03-14 14:32:24.6791|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-03-14 14:32:24.6791|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-03-14 14:32:24.6929|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Github\AppLogTest\NLog.Library\NLog.Library |url: |action: 
+2024-03-14 14:32:28.0540|0|ERROR|NLog.Library.Controllers.HomeController|Hata System.DivideByZeroException: Attempted to divide by zero.
+   at NLog.Library.Controllers.HomeController.Get() in C:\Github\AppLogTest\NLog.Library\NLog.Library\Controllers\HomeController.cs:line 26|url: http://localhost/api/Home/Get|action: Get
+2024-03-14 14:32:31.1678|0|ERROR|NLog.Library.Controllers.HomeController|Hata System.DivideByZeroException: Attempted to divide by zero.
+   at NLog.Library.Controllers.HomeController.Get() in C:\Github\AppLogTest\NLog.Library\NLog.Library\Controllers\HomeController.cs:line 26|url: http://localhost/api/Home/Get|action: Get
+2024-03-14 14:34:02.3651|0|DEBUG|Program|init main |url: |action: 
+2024-03-14 14:34:02.7946|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5045 |url: |action: 
+2024-03-14 14:34:03.1349|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: 
+2024-03-14 14:34:03.1499|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: 
+2024-03-14 14:34:03.1499|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Github\AppLogTest\NLog.Library\NLog.Library |url: |action: 
+2024-03-14 14:34:06.6113|0|ERROR|NLog.Library.Controllers.HomeController|Error occurred in Post action for POST request System.DivideByZeroException: Attempted to divide by zero.
+   at NLog.Library.Controllers.HomeController.Post() in C:\Github\AppLogTest\NLog.Library\NLog.Library\Controllers\HomeController.cs:line 44|url: http://localhost/api/Home/Post|action: Post

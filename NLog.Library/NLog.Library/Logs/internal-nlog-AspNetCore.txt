@@ -1,0 +1,106 @@
+2024-03-14 14:32:23.8483 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:32:23.8644 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:32:23.8644 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:32:23.8800 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:32:23.8800 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:32:23.8974 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:32:23.9359 Info Configuration initialized.
+2024-03-14 14:32:24.0918 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:02.2115 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:34:02.2365 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:34:02.2365 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:34:02.2685 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:34:02.2859 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:34:02.2859 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:02.3533 Info Configuration initialized.
+2024-03-14 14:34:02.4807 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:40.8444 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:34:40.8599 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:34:40.8599 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:34:40.8844 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:34:40.9033 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:34:40.9109 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:40.9666 Info Configuration initialized.
+2024-03-14 14:34:41.1056 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:57.7212 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:34:57.7421 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:34:57.7421 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:34:57.7634 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:34:57.7763 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:34:57.7763 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:34:57.8319 Info Configuration initialized.
+2024-03-14 14:34:58.0618 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:45:25.0299 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:45:25.0513 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:45:25.0513 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:45:25.0794 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'DatabaseTarget' cannot assign unknown property 'connectionStringName'='DefaultConnection'
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString[T](T targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2024-03-14 14:45:25.1176 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:45:25.1299 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:45:25.1299 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, databaseTarget, ConfigItems=74, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:45:25.1755 Info Configuration initialized.
+2024-03-14 14:45:25.3145 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, databaseTarget, ConfigItems=74, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:45:49.8179 Error DatabaseTarget(Name=databaseTarget): Error when writing to database. Exception: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Sistem belirtilen dosyayı bulamıyor.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-03-14 14:45:50.0517 Error DatabaseTarget(Name=databaseTarget): Error when writing to database. Exception: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Sistem belirtilen dosyayı bulamıyor.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-03-14 14:45:50.9062 Error DatabaseTarget(Name=databaseTarget): Error when writing to database. Exception: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Sistem belirtilen dosyayı bulamıyor.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at NLog.Targets.DatabaseTarget.OpenConnection(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.EnsureConnectionOpen(String connectionString, LogEventInfo logEventInfo)
+   at NLog.Targets.DatabaseTarget.WriteLogEventSuppressTransactionScope(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+2024-03-14 14:47:36.2484 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2024-03-14 14:47:36.2639 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2024-03-14 14:47:36.2639 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2024-03-14 14:47:36.2790 Info Registered target NLog.Targets.DatabaseTarget(Name=databaseTarget)
+2024-03-14 14:47:36.2909 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-14 14:47:36.3024 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
+2024-03-14 14:47:36.3602 Info Configuration initialized.
+2024-03-14 14:47:36.4914 Info Validating config: TargetNames=databaseTarget, allfile, lifetimeConsole, ownFile-web, ConfigItems=77, FilePath=C:\Github\AppLogTest\NLog.Library\NLog.Library\bin\Debug\net8.0\NLog.config
